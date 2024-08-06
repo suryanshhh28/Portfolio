@@ -70,18 +70,18 @@ const ContactPage = () => {
           <span>Dear Suryansh,</span>
           <textarea
             rows={6}
-            className="bg-transparent border-b-2 border-b-black outline-none resize-none"
+            className="bg-transparent text-black border-b-2 border-b-black outline-none resize-none"
             name="user_message"
           />
           <span>Your email ID: </span>
           <input
             name="user_email"
             type="text"
-            className="bg-transparent border-b-2 border-b-black outline-none"
+            className="bg-transparent text-black border-b-2 border-b-black outline-none"
           />
           <span>Regards</span>
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
-            He will reply after you click me!
+            Send
           </button>
           {success && (
             <span className="text-green-600 font-semibold">
